@@ -1,0 +1,197 @@
+/* common css st  */
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+
+}
+/* common css end  */
+
+.containerW{
+    width: 1060px;
+    margin:  auto;
+  
+    
+}
+#main{
+    padding: 20px 0 ;
+}
+.header{
+    display: flex;
+}
+.one{
+    width: 25%;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+
+
+.dropbtn {
+    padding: 0 16px;
+
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+  #tt {
+    padding: 5px;
+    
+    border: solid 1px black;
+    border-radius: 50%;
+  }
+   
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    text-align: center;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 1px 5px 0px rgba(54, 54, 54, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    
+  }
+  .bangla{
+    margin-right: 10px;
+  }
+  
+  .dropdown-content a {
+    color: #4F3971;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .bd{
+    display: flex;
+    gap: 8px;
+  }
+.bdP{
+font-size: 16px;
+font-weight: 500;
+color: #239335;
+font-family: "Roboto", sans-serif;
+
+}
+.ttP{
+font-size: 16px;
+font-weight: 500;
+color: #1E1E1E;
+font-family: "Roboto", sans-serif;
+
+}
+.conP{
+    color: #1E1E1E;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: solid 1px #1E1E1E;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: solid #DFDFDF 1px;
+    
+
+
+}
+.bdimg{
+  height: 22px;
+  width: 22px;
+
+}
+
+
+.two{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.three{
+    width: 25%;
+display: flex;
+justify-content: flex-end;
+
+}
+.mnyicn{
+  height: 14px;
+  width: 14px;
+}
+
+.catagryP{
+  font-size: 12px;
+  padding: 0 150px;
+  
+}
+
+#cbtn{
+ padding: 15px 10px;
+ background: #713946;
+ color: white;
+ 
+
+}
+#lastpart{
+  padding: 25px 0;
+  background: #EDEDED;
+}
+#serch{
+  padding: 17px 10px;
+  width: 300px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+ font-style: italic;
+ border: none;
+
+}
+
+#serhicn{
+  padding: 16px 25px;
+  background: #4F3971;
+  color: white;
+  font-size: 18px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.we{
+  display: flex;
+  justify-content: flex-end;
+}
+.srcbtn{
+  border: none;
+  margin-right: 190px;
+
+}
+.iconsin{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+
+  
+}
